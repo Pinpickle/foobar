@@ -17,6 +17,7 @@ mod test {
     fn test_add_me() {
         use super::add_me;
         assert!(add_me(2, 2) == 4);
+        assert!(add_me(2, -7) == -5);
     }
 
     quickcheck! {
